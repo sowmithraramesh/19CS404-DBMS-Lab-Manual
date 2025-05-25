@@ -18,9 +18,7 @@ Design a database to manage students, instructors, programs, courses, and studen
 - Track course enrollments by students and enrollment date.
 - Add support for prerequisites (some courses require others).
 
----
-
-### 🔹 Scenario 2: Hospital Database
+###  Scenario 2: Hospital Database
 Design a database for patient management, appointments, medical records, and billing.
 
 **User Requirements:**
