@@ -6,7 +6,6 @@ To understand and apply the concepts of ER modeling by creating an ER diagram fo
 ## Purpose:
 The purpose of this workshop is to gain hands-on experience in designing ER diagrams that visually represent the structure of a database including entities, relationships, attributes, and constraints.
 
----
 
 ### Scenario 1: University Database
 Design a database to manage students, instructors, programs, courses, and student enrollments. Include prerequisites for courses.
