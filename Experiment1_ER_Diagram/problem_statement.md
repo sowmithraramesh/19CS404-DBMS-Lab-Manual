@@ -29,7 +29,7 @@ Design a database for patient management, appointments, medical records, and bil
 - Billing and payment details for each appointment.
 
 
-# ER Diagram Submission - JOHN CHRISTOBER T
+# ER Diagram Submission - SOWMITHRA R
 
 ## Scenario Chosen:
 University
