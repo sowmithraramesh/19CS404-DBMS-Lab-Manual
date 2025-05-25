@@ -47,123 +47,139 @@ SELECT column1, column2 FROM table_name WHERE condition;
 ```
 **Question 1**
 --
--- Paste Question 1 here
+-- ![image](https://github.com/user-attachments/assets/19884636-e39f-44b6-92d0-e8caf4cf277d)
+
 
 ```sql
--- Paste your SQL code below for Question 1
+-- update EMPLOYEES set EMAIL='not available' , COMMISSION_PCT=0.55 where DEPARTMENT_ID=110;
 ```
 
 **Output:**
 
-![Output1](output.png)
+![image](https://github.com/user-attachments/assets/0e29171f-5be1-4121-b781-3d96ea91a413)
 
 **Question 2**
 ---
--- Paste Question 2 here
+-- ![image](https://github.com/user-attachments/assets/46af1df7-586d-4c92-be1a-5ea38a5cc431)
+
 
 ```sql
--- Paste your SQL code below for Question 2
+-- update SALES set TOTAL_SELL_PRICE=SELL_PRICE*QUANTITY where PRODUCT_ID=10;
 ```
 
 **Output:**
 
-![Output2](output.png)
+![image](https://github.com/user-attachments/assets/3ac18618-deea-44bf-8e5b-3d264a223f69)
+
 
 **Question 3**
 ---
--- Paste Question 3 here
+-- ![image](https://github.com/user-attachments/assets/73a6becc-838c-4b78-9870-1dc3194f76ac)
+
 
 ```sql
--- Paste your SQL code below for Question 3
+--update EMPLOYEES set SALARY=8000 where EMPLOYEE_ID=105 and SALARY<5000;
 ```
 
 **Output:**
 
-![Output3](output.png)
+![image](https://github.com/user-attachments/assets/0abc1edb-570b-4cdd-85a7-deea89284bba)
+
 
 **Question 4**
 ---
--- Paste Question 4 here
+-- ![image](https://github.com/user-attachments/assets/f9aef484-38c5-4e0b-bb20-d3bd5c65265f)
+
 
 ```sql
--- Paste your SQL code below for Question 4
+--update Suppliers set address ='58 Lakeview, Magnolia'  where supplier_id=5;
 ```
 
 **Output:**
 
-![Output4](output.png)
+![image](https://github.com/user-attachments/assets/92330739-5a36-4394-942c-deada5ffd75c)
+
 
 **Question 5**
 ---
--- Paste Question 5 here
+-- ![image](https://github.com/user-attachments/assets/dbb727d5-1fa0-48c9-b1b8-affbcff25567)
 
 ```sql
--- Paste your SQL code below for Question 5
+-- delete from Customer where CUST_COUNTRY NOT IN ('UK','USA','Canada') and GRADE>=3;
 ```
 
 **Output:**
 
-![Output5](output.png)
+![image](https://github.com/user-attachments/assets/97c56c03-311f-469b-9967-056d3ef74d5b)
+
 
 **Question 6**
 ---
--- Paste Question 6 here
+-- ![image](https://github.com/user-attachments/assets/92d70822-be39-456b-950f-869b95df90e3)
+
 
 ```sql
--- Paste your SQL code below for Question 6
+-- delete from Customer where CUST_COUNTRY='UK' and WORKING_AREA='London' and GRADE<3;
 ```
 
 **Output:**
 
-![Output6](output.png)
+![image](https://github.com/user-attachments/assets/73ad00c7-1a46-4845-aff4-65df54f40454)
+
 
 **Question 7**
 ---
--- Paste Question 7 here
+-- ![image](https://github.com/user-attachments/assets/7e9bc4a0-612f-43d1-b4e2-7116c89d28bc)
+
 
 ```sql
--- Paste your SQL code below for Question 7
+-- delete from Customer where CUST_COUNTRY <>'India' and  CUST_COUNTRY <>'USA';
 ```
 
 **Output:**
 
-![Output7](output.png)
+![image](https://github.com/user-attachments/assets/66b183ab-7519-485d-afea-3d96fabed0e4)
+
 
 **Question 8**
 ---
--- Paste Question 8 here
+--![image](https://github.com/user-attachments/assets/ed110866-dea5-4acd-bda3-30fb4ad0a6e4)
 
 ```sql
--- Paste your SQL code below for Question 8
+-- delete from Doctors where specialization='Cardiology';
 ```
 
 **Output:**
 
-![Output8](output.png)
+![image](https://github.com/user-attachments/assets/2ac3672c-ceff-4882-b890-3f4270c56e41)
+
 
 **Question 9**
 ---
--- Paste Question 9 here
+-- ![image](https://github.com/user-attachments/assets/29ebe469-d5f2-4129-adde-5dd31ac3d73d)
+
 
 ```sql
--- Paste your SQL code below for Question 9
+-- delete from Customer where CUST_CITY LIKE 'L%';
 ```
 
 **Output:**
 
-![Output9](output.png)
+![image](https://github.com/user-attachments/assets/5097f25e-48ab-4000-9360-00b087fbe2dd)
 
 **Question 10**
 ---
--- Paste Question 10 here
+--![image](https://github.com/user-attachments/assets/a1d4d5d8-8332-4014-bf31-aa8b9051119a)
+
 
 ```sql
--- Paste your SQL code below for Question 10
+--select * from EmployeeInfo order by EmpID desc limit 5;
 ```
 
 **Output:**
 
-![Output10](output.png)
+![image](https://github.com/user-attachments/assets/844fedd7-b310-45ac-aa7d-f102b4ae431f)
+
 
 ## RESULT
 Thus, the SQL queries to implement DML commands have been executed successfully.
