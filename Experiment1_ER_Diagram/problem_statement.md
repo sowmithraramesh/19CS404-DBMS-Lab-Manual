@@ -28,7 +28,6 @@ Design a database for patient management, appointments, medical records, and bil
 - Medical records with treatments, diagnosis, test results.
 - Billing and payment details for each appointment.
 
----
 
 # ER Diagram Submission - JOHN CHRISTOBER T
 
